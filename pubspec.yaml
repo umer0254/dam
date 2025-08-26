@@ -1,0 +1,36 @@
+name: DAM
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.5.0
+  qr_code_scanner_plus: ^2.0.10+1
+  flutter_launcher_icons: ^0.14.4
+  flutter_dotenv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/dam.png
+    - apiendpoints.env
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/dam.png"
+  min_sdk_android: 21
